@@ -80,9 +80,6 @@ public class Majors {
     }
   }
 
-  public void insertMajors(String[] majors, String[] related) {
-	  
-  }
   
   public static void main(String[] args) {
     /*System.out.println(existsSubstring("asdf", "as"));
