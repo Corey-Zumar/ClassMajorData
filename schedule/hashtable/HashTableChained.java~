@@ -1,0 +1,264 @@
+/* HashTableChained.java */
+
+package hashtable;
+import list.*;
+
+/**
+ *  HashTableChained implements a Dictionary as a hash table with chaining.
+ *  All objects used as keys must have a valid hashCode() method, which is
+ *  used to determine which bucket of the hash table an entry is stored in.
+ *  Each object's hashCode() is presumed to return an int between
+ *  Integer.MIN_VALUE and Integer.MAX_VALUE.  The HashTableChained class
+ *  implements only the compression function, which maps the hash code to
+ *  a bucket in the table's range.
+ *
+ *  DO NOT CHANGE ANY PROTOTYPES IN THIS FILE.
+ **/
+
+public class HashTableChained implements Dictionary {
+
+  /**
+   *  Place any data fields here.
+   **/
+
+  int numEntries;
+  SList[] buckets;
+
+  /** 
+   *  Construct a new empty hash table intended to hold roughly sizeEstimate
+   *  entries.  (The precise number of buckets is up to you, but we recommend
+   *  you use a prime number, and shoot for a load factor between 0.5 and 1.)
+   **/
+
+  public HashTableChained(int sizeEstimate) {
+    numEntries = 0;
+    buckets = new SList[nextPrime(sizeEstimate)];
+    for(int i = 0; i < buckets.length; i++) {
+      buckets[i] = new SList();
+    }
+  }
+
+  //returns the number of entries in this hashtable.
+  public int numEntries() {
+    return numEntries;
+  }
+
+  //returns true if n is prime, false if n is not prime.
+  private static boolean isPrime(int n) {
+    if(n < 2) {
+      return false;
+    }
+    int upperBound = (int) Math.sqrt(n);
+    for(int i = 2; i <= upperBound; i++) {
+      if(n % i == 0) {
+	return false;
+      }
+    }
+    return true;
+  }
+
+  //returns the smallest prime greater than n.
+  private static int nextPrime(int n) {
+    for(int i = n + 1;; i++) {
+      if(isPrime(i)) {
+	return i;
+      }
+    }
+  }
+
+  /** 
+   *  Construct a new empty hash table with a default size.  Say, a prime in
+   *  the neighborhood of 100.
+   **/
+
+  public HashTableChained() {
+    numEntries = 0;
+    buckets = new SList[nextPrime(100)];
+    for(int i = 0; i < buckets.length; i++) {
+      buckets[i] = new SList();
+    }
+  }
+
+  /**
+   *  Converts a hash code in the range Integer.MIN_VALUE...Integer.MAX_VALUE
+   *  to a value in the range 0...(size of hash table) - 1.
+   *
+   *  This function should have package protection (so we can test it), and
+   *  should be used by insert, find, and remove.
+   **/
+
+  int compFunction(int code) {
+    return mod(code, buckets.length);
+  }
+
+
+  // returns a mod n.
+  private static int mod(int a, int n) {
+    int k = a % n;
+    if(k >= 0) {
+      return k;
+    } else {
+      return k+n;
+    }
+  }
+
+  /** 
+   *  Returns the number of entries stored in the dictionary.  Entries with
+   *  the same key (or even the same key and value) each still count as
+   *  a separate entry.
+   *  @return number of entries in the dictionary.
+   **/
+
+  public int size() {
+    return numEntries;
+  }
+
+  /** 
+   *  Tests if the dictionary is empty.
+   *
+   *  @return true if the dictionary has no entries; false otherwise.
+   **/
+
+  public boolean isEmpty() {
+    return numEntries == 0;
+  }
+
+  /**
+   *  Create a new Entry object referencing the input key and associated value,
+   *  and insert the entry into the dictionary.  Return a reference to the new
+   *  entry.  Multiple entries with the same key (or even the same key and
+   *  value) can coexist in the dictionary. Resizes if necessary.
+   * 
+   * IMPORTANT: resizes the table to about double the original sizeif loadfactor
+   * gets bigger than 0.75.
+   *
+   *  This method should run in O(1) time if the number of collisions is small.
+   *
+   *  @param key the key by which the entry can be retrieved.
+   *  @param value an arbitrary object.
+   *  @return an entry containing the key and value.
+   **/
+
+  public Entry insert(Object key, Object value) {
+    Entry newEntry = new Entry();
+    newEntry.key = key;
+    newEntry.value = value;
+    insertHelper(newEntry);
+    if (loadFactor() > 0.75) {
+      numEntries = 0;
+      SList[] oldBuckets = buckets;
+      buckets = new SList[nextPrime(2*buckets.length)];
+      for (int i = 0; i < buckets.length; i++) {
+	buckets[i] = new SList();
+      }
+      for (int i = 0; i < oldBuckets.length; i++) {
+	SListNode curr = oldBuckets[i].front();
+	while (curr.isValidNode()) {
+	  try {
+	    insertHelper((Entry) curr.item());
+	    curr = curr.next();
+	  } catch (InvalidNodeException e) {
+	    System.out.println(e);
+	  }
+	}
+      }
+    }  
+    return newEntry;
+  }
+
+  //inserts the Entry into this hashtable but doesn't return anything
+  private void insertHelper(Entry newEntry) {
+    int bucketNum = compFunction(newEntry.key.hashCode());
+    SList bucket = buckets[bucketNum];
+    bucket.insertBack(newEntry);
+    numEntries++;
+  }
+
+  //returns the loadFactor of this hashtable as a double.
+  private double loadFactor() {
+    return (double) numEntries/buckets.length;
+  }
+
+  /** 
+   *  Search for an entry with the specified key.  If such an entry is found,
+   *  return it; otherwise return null.  If several entries have the specified
+   *  key, choose one arbitrarily and return it.
+   *
+   *  This method should run in O(1) time if the number of collisions is small.
+   *
+   *  @param key the search key.
+   *  @return an entry containing the key and an associated value, or null if
+   *          no entry contains the specified key.
+   **/
+
+  public Entry find(Object key) {
+    int bucketNum = this.compFunction(key.hashCode());
+    SList bucket = buckets[bucketNum];
+    if(bucket.length() == 0) {
+      return null;
+    } else {
+      SListNode iter = bucket.front();
+      while(iter.isValidNode()) {
+	try {
+	  if(((Entry) iter.item()).key().equals(key)) {
+	    return (Entry) iter.item();
+	  }
+	  iter = iter.next();
+	} catch(InvalidNodeException e) {
+	  System.out.println(e);
+	} catch(NullPointerException e) {
+	  System.out.println(e);
+	}
+      }
+    }
+    return null;
+  }
+
+  /** 
+   *  Remove an entry with the specified key.  If such an entry is found,
+   *  remove it from the table and return it; otherwise return null.
+   *  If several entries have the specified key, choose one arbitrarily, then
+   *  remove and return it.
+   *
+   *  This method should run in O(1) time if the number of collisions is small.
+   *
+   *  @param key the search key.
+   *  @return an entry containing the key and an associated value, or null if
+   *          no entry contains the specified key.
+   */
+
+  public Entry remove(Object key) {
+    int bucketNum = this.compFunction(key.hashCode());
+    SList bucket = buckets[bucketNum];
+    if(buckets[bucketNum].length() == 0) {
+      return null;
+    }
+    SListNode iter = bucket.front();
+    while(iter.isValidNode()) {
+      try {
+	if(((Entry) iter.item()).key().equals(key)) {
+	  numEntries--;
+	  Entry temp = (Entry) iter.item();
+	  iter.remove();
+	  return temp;
+	}
+	iter = iter.next();
+      } catch(InvalidNodeException e) {
+	System.out.println(e);
+      }
+    }
+    return null;
+  }
+
+  /**
+   *  Remove all entries from the dictionary.
+   */
+  public void makeEmpty() {
+    numEntries = 0;
+    buckets = new SList[buckets.length];
+    for(int i = 0; i < buckets.length; i++) {
+      buckets[i] = new SList();
+    }
+  }
+
+}

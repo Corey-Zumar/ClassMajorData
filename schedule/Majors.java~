@@ -1,0 +1,36 @@
+public class Majors {
+  private DList majorsList;
+
+  private static boolean existsSubstring(String s, String sub) {
+    if (s.indexOf(sub) < 0) {
+      return false;
+    }
+    return true;
+  }
+
+  public int numCommonWords(String s1, String s2) {
+    int currIndex = 0;
+    int endWord = 0;
+    int similarity = 0;
+    while (currIndex < s1.length() && currIndex < s2.length()) {
+      for (int i = currIndex+1; i < s1.length(); i++) {
+	if (s1.charAt(i) == ' ' || i == s1.length() - 1) {
+	  endWord = i - 1;
+	}
+      }
+      if (existsSubstring(s2, s1.substring(currIndex, endWord+1))) {
+	similarity++;
+      }
+      if (endWord == s1.length()) {
+	break;
+      } else {
+        currIndex = endWord + 2;
+      }
+    }
+  }
+
+  public static void main(String[] args) {
+    String test1 = "hey what is your name";
+    String test2 = "hey what are you doing";
+    System.out.println(numcommonWords(test1, test2));
+  }
