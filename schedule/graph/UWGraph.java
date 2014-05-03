@@ -83,7 +83,7 @@ public class UWGraph {
 					vertexNode = currNode;
 				}
 				currNode = currNode.next();
-			  	}
+			}
 			((VertexAndDepth) vertexNode.item()).depth = 0;
 			farthestHelper(v, 1);
 			int index = 0;
@@ -97,6 +97,37 @@ public class UWGraph {
 					}
 					currNode = currNode.next();
 				}
+			}
+		} catch (InvalidNodeException e) {
+			System.out.println(e);
+		}
+		return farthests;
+	}
+	
+	public Object[] farVertices(Object v, int numVertices, double p) {
+		int firstVertex = Math.min((int) (vertexList.length()*p), vertexList.length()-numVertices);
+		DListNode currNode = vertexList.front();
+		Object[] farthests = new Object[numVertices];
+		DListNode vertexNode = vertexList.front();
+		try {
+			while (currNode.isValidNode()) {
+				((VertexAndDepth) currNode.item()).depth = -1;
+				if (((VertexAndDepth) currNode.item()).vertex.equals(v)) {
+					vertexNode = currNode;
+				}
+				currNode = currNode.next();
+			}
+			((VertexAndDepth) vertexNode.item()).depth = 0;
+			farthestHelper(v, 1);
+			VertexAndDepth[] sortMe = new VertexAndDepth[vertexList.length()];
+			currNode = vertexList.front();
+			for (int i = 0; i < sortMe.length; i++) {
+				sortMe[i] = (VertexAndDepth) currNode.item();
+				currNode = currNode.next();
+			}
+			Mergesort.mergeSort(sortMe);
+			for (int i = 0; i < numVertices; i++) {
+				farthests[i] = sortMe[i+firstVertex].vertex;
 			}
 		} catch (InvalidNodeException e) {
 			System.out.println(e);

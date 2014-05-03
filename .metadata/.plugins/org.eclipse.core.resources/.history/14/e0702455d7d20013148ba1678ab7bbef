@@ -1,0 +1,54 @@
+import java.util.Map;
+
+import majors.MajorsParser;
+
+public class Classes {
+	
+	public String myMajor;
+	public Majors otherMajors;
+	public Object[] unrelatedMajors;
+	
+	public Classes(String major) {
+		myMajor = major;
+		otherMajors = new Majors();
+		unrelatedMajors = new Object[5];
+	}
+	
+	public void addDepths() {
+		MajorsParser parser = new MajorsParser();
+		Map<String, String[]> map = parser.parseMajors();
+		otherMajors.addRelated(map);
+		unrelatedMajors = otherMajors.relatedMajors.farthest(myMajor);
+	}
+	
+	public Course[][] coursesForMajor(Map<String, Course[]> map) {
+		Course[][] courses = new Course[unrelatedMajors.length][5];
+		String title = "";
+		for (int i =0; i < unrelatedMajors.length; i++) {
+			for (int j = 0; j < Math.min(5,map.get(unrelatedMajors[i]).length); j++) {
+				if (!title.equals(map.get(unrelatedMajors[i])[j].toString())) {
+					courses[i][j] = map.get(unrelatedMajors[i])[j];
+				}
+				title = map.get(unrelatedMajors[i])[j].toString();
+			}
+		}
+		return courses;
+	}
+	
+	public static void main(String[] args) {
+		Map<String, Course[]> map = CoursesParser.parseCourses();
+		Classes myClasses = new Classes("Computer Science");
+		myClasses.addDepths();
+		Course[][] unrelatedCourses = myClasses.coursesForMajor(map);
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 5; j++) {
+				if (unrelatedCourses[i][j] != null) {
+					System.out.println(myClasses.unrelatedMajors[i]);
+					System.out.println(unrelatedCourses[i][j]);
+					System.out.println("");
+				}
+			}
+		}
+	}
+	
+}

@@ -5,7 +5,6 @@ package hashtable;
 /**
  *  An interface for (unordered) dictionary ADTs.
  *
- *  DO NOT CHANGE THIS FILE.
  **/
 
 public interface Dictionary {
