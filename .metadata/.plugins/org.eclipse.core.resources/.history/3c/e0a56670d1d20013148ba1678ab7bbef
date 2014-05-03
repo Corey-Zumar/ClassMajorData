@@ -1,0 +1,4 @@
+public class Classes {
+	Majors myMajor = new Majors();
+	
+}

@@ -1,0 +1,95 @@
+package graph;
+
+import list.*;
+import hashtable.*;
+
+public class UWGraph {
+
+  public DList vertexList;
+  public HashTableChained edgeHash;
+
+  public UWGraph() {
+    vertexList = new DList();
+    edgeHash = new HashTableChained();
+  }
+
+  public void insertVertex(Object s) {
+    vertexList.insertBack(new VertexAndDepth(s, -1));
+  }
+
+  public void insertEdge(Object s1, Object s2) {
+    if (edgeHash.find(new VertexPair(s1, s2)) == null) {
+      edgeHash.insert(new VertexPair(s1, s2), null);
+    }
+  }
+
+  public boolean isEdge(Object v1, Object v2) {
+    return !(edgeHash.find(new VertexPair(v1, v2)) == null); 
+  }
+
+  public String toString() {
+    int max = edgeHash.size();
+    int itemNum;
+    String output = "";
+    DListNode currNode1 = vertexList.front();
+    try {
+    while (currNode1.isValidNode()) {
+      DListNode currNode2 = vertexList.front();
+      while (currNode2.isValidNode()) {
+	Entry item = edgeHash.find(new VertexPair(((VertexAndDepth) currNode1.item()).vertex, ((VertexAndDepth) currNode2.item()).vertex));
+	if (item != null) {
+	  output += ((VertexAndDepth) currNode1.item()).vertex + ", "  + ((VertexAndDepth) currNode2.item()).vertex + ": " + "\n";
+	}
+	currNode2 = currNode2.next();
+      }
+      currNode1 = currNode1.next();
+    }
+    } catch (InvalidNodeException e) {
+      System.out.println(e);
+    }
+    return output;
+  }
+
+  public void farthestHelper(Object v, int currDepth) {
+	  DListNode currNode = vertexList.front();
+	  try {
+		  while (currNode.isValidNode()) {
+			  if (edgeHash.find(new VertexPair(v, ((VertexAndDepth)currNode.item()).vertex)) != null &&
+					 ((VertexAndDepth) currNode.item()).depth == -1) {
+				  ((VertexAndDepth) currNode.item()).depth = currDepth;
+				  farthestHelper(((VertexAndDepth) currNode.item()).vertex, currDepth+1);
+			  }
+			  currNode = currNode.next();
+		  }
+	  } catch (InvalidNodeException e) {
+		  System.out.println(e);
+	  }
+  }
+
+	public Object[] farthest(Object v) {
+		DListNode currNode = vertexList.front();
+		Object[] farthests = new Object[5];
+		try {
+			while (currNode.isValidNode()) {
+				((VertexAndDepth) currNode.item()).depth = -1;
+				currNode = currNode.next();
+			  	}
+			farthestHelper(v, 1);
+			int index = 0;
+			for (int depth = vertexList.length(); depth > 0; depth--) {
+				currNode = vertexList.front();
+				while (currNode.isValidNode()) {
+					if (((VertexAndDepth) currNode.item()).depth == depth &&
+							index < 5) {
+						farthests[index] = ((VertexAndDepth) currNode.item()).vertex;
+						index++;
+					}
+					currNode = currNode.next();
+				}
+			}
+		} catch (InvalidNodeException e) {
+			System.out.println(e);
+		}
+		return farthests;
+	}
+}

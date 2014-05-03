@@ -1,0 +1,83 @@
+import graph.*;
+import list.*;
+import majors.*;
+import java.util.*;
+
+
+public class Majors {
+  private Graph majors;
+
+  private static boolean existsSubstring(String s, String sub) {
+    if (s.indexOf(sub) < 0) {
+      return false;
+    }
+    return true;
+  }
+
+  public Majors() {
+    majors = new Graph();
+  }
+
+  public static void readInfo(String[] majors, String[] descriptions,
+		       Map<String, String> info) {
+    int index = 0;
+    for (String i : info.keySet()) {
+      majors[index] = i;
+      descriptions[index] = info.get(i);
+      index++;
+    }
+  }
+
+  public static int numCommonWords(String s1, String s2) {
+    int currIndex = 0;
+    int endWord = 0;
+    int similarity = 0;
+    while (currIndex < s1.length()) {
+      for (int i = currIndex+1; i < s1.length(); i++) {
+	if (s1.charAt(i) == ' ') {
+	  endWord = i - 1;
+	  break;
+	} else if (i == s1.length() - 1) {
+	  endWord = i;
+	  break;
+	}
+      }
+      if (existsSubstring(s2, s1.substring(currIndex, endWord+1))) {
+	similarity++;
+      }
+      currIndex = endWord + 2;
+    }
+    return similarity;
+  }
+
+  public void insertSimilarities(String[] majors, String[] descriptions) {
+    for (int i = 0; i < majors.length; i++) {
+      this.majors.insertVertex(majors[i]);
+    }
+    for (int i = 0; i < majors.length; i++) {
+      for (int j = 0; j < majors.length; j++) {
+	this.majors.insertEdge(majors[i], majors[j],
+		   numCommonWords(descriptions[i], descriptions[j]));
+      }
+    }
+  }
+
+  public static void main(String[] args) {
+    System.out.println(existsSubstring("asdf", "as"));
+    String test1 = "hey what is your name";
+    String test2 = "hey what are you doing";
+    System.out.println(numCommonWords(test1, test2));
+    Majors majorsSimilarity = new Majors();
+    String[] majors = new String[10];
+    String[] descriptions = new String[10];
+    MajorsParser foo = new MajorsParser();
+    Map<String, String> map = foo.parseMajors();
+    readInfo(majors, descriptions, map);
+    majorsSimilarity.insertSimilarities(majors, descriptions);
+    System.out.println(majorsSimilarity.majors);
+    Object[] asdf = majorsSimilarity.majors.leastWeights("a");
+    for (int i = 0; i < asdf.length; i++) {
+      System.out.println(asdf[i]);
+    }
+  }
+}

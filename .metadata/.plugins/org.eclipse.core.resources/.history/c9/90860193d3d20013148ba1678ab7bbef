@@ -1,0 +1,26 @@
+import java.util.Map;
+
+import majors.MajorsParser;
+
+public class Classes {
+	
+	public String myMajor;
+	public Majors otherMajors;
+	public Object[] unrelatedMajors;
+	
+	public Classes(String major) {
+		myMajor = major;
+		otherMajors = new Majors();
+		unrelatedMajors = new Object[5];
+	}
+	
+	public void addDepths() {
+		MajorsParser parser = new MajorsParser();
+		Map<String, String[]> map = parser.parseMajors();
+		otherMajors.addRelated(map);
+		unrelatedMajors = otherMajors.relatedMajors.farthest(myMajor);
+	}
+	
+	
+	
+}

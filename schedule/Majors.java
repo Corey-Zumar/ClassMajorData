@@ -5,8 +5,9 @@ import java.util.*;
 
 
 public class Majors {
-  private Graph majors;
-
+  public Graph majors;
+  public UWGraph relatedMajors;
+  
   private static boolean existsSubstring(String s, String sub) {
     if (s.indexOf(sub) < 0) {
       return false;
@@ -16,6 +17,7 @@ public class Majors {
 
   public Majors() {
     majors = new Graph();
+    relatedMajors = new UWGraph();
   }
 
   public static void readInfo(String[] majors, String[] descriptions,
@@ -32,6 +34,15 @@ public class Majors {
     }
   }
 
+  public void addRelated(Map<String, String[]> info) {
+	  for (String i : info.keySet()) {
+		  relatedMajors.insertVertex(i);
+		  for (int j = 0; j < info.get(i).length; j++) {
+			  relatedMajors.insertEdge(i,info.get(i)[j]);
+		  }
+	  }
+  }
+  
   public static int numCommonWords(String s1, String s2) {
     int currIndex = 0;
     int endWord = 0;
@@ -69,8 +80,12 @@ public class Majors {
     }
   }
 
+  public void insertMajors(String[] majors, String[] related) {
+	  
+  }
+  
   public static void main(String[] args) {
-    System.out.println(existsSubstring("asdf", "as"));
+    /*System.out.println(existsSubstring("asdf", "as"));
     String test1 = "hey what is your name";
     String test2 = "hey what are you doing";
     System.out.println(numCommonWords(test1, test2));
@@ -88,5 +103,14 @@ public class Majors {
     for (int i = 0; i < asdf.length; i++) {
       System.out.println(asdf[i]);
     }
+    */
+	MajorsParser parser = new MajorsParser();
+	Map<String, String[]> map = parser.parseMajors();
+	Majors majorsRelated = new Majors();
+	majorsRelated.addRelated(map);
+	Object[] bar = majorsRelated.relatedMajors.farthest("Computer Science");
+	for (int i = 0; i < bar.length; i++) {
+		System.out.println(bar[i]);
+	}
   }
 }
