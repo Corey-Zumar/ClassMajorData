@@ -10,40 +10,40 @@
             "AFRICAN AMERICAN STUDIES R1B P 002 LEC ": "Freshman Composition\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 4A P 001 LEC ": "Freshman Composition\u00a0"
+            "AFRICAN AMERICAN STUDIES 4A P 001 LEC ": "Africa: History and Culture\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 5A P 001 LEC ": "Freshman Composition\u00a0"
+            "AFRICAN AMERICAN STUDIES 5A P 001 LEC ": "African American Life and Culture in the United Sta...\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 7A P 001 REC ": "Freshman Composition\u00a0"
+            "AFRICAN AMERICAN STUDIES 7A P 001 REC ": "Elementary Wolof\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 8A P 001 REC ": "Africa: History and Culture\u00a0"
+            "AFRICAN AMERICAN STUDIES 8A P 001 REC ": "Intermediate Wolof\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 10A P 001 REC ": "Africa: History and Culture\u00a0"
+            "AFRICAN AMERICAN STUDIES 10A P 001 REC ": "Intermediate Swahili\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 11A P 001 REC ": "Africa: History and Culture\u00a0"
+            "AFRICAN AMERICAN STUDIES 11A P 001 REC ": "Elementary Swahili\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 11A P 002 REC ": "Africa: History and Culture\u00a0"
+            "AFRICAN AMERICAN STUDIES 11A P 002 REC ": "Elementary Swahili\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 15A P 001 REC ": "African American Life and Culture in the United Sta...\u00a0"
+            "AFRICAN AMERICAN STUDIES 15A P 001 REC ": "Advanced Swahili\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 24 P 001 SEM ": "African American Life and Culture in the United Sta...\u00a0"
+            "AFRICAN AMERICAN STUDIES 24 P 001 SEM ": "Freshman Seminars\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 27AC P 001 LEC ": "African American Life and Culture in the United Sta...\u00a0"
+            "AFRICAN AMERICAN STUDIES 27AC P 001 LEC ": "Lives of Struggle: Minorities in a Majority Culture\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 30A P 001 LEC ": "African American Life and Culture in the United Sta...\u00a0"
+            "AFRICAN AMERICAN STUDIES 30A P 001 LEC ": "Elementary Chichewa\u00a0"
         }, 
         {
-            "AFRICAN AMERICAN STUDIES 99 P 004 IND ": "Elementary Wolof\u00a0"
+            "AFRICAN AMERICAN STUDIES 99 P 004 IND ": "Supervised Independent Studies for Freshmen and Sop...\u00a0"
         }
     ], 
     "American Studies": [
@@ -56,34 +56,34 @@
             "ANTHROPOLOGY 2AC P 001 LEC ": "Introduction to Archaeology\u00a0"
         }, 
         {
-            "ANTHROPOLOGY 3AC P 001 LEC ": "Introduction to Archaeology\u00a0"
+            "ANTHROPOLOGY 3AC P 001 LEC ": "Introduction to Social/Cultural Anthropology (Ameri...\u00a0"
         }, 
         {
-            "ANTHROPOLOGY R5B P 001 LEC ": "Introduction to Archaeology\u00a0"
+            "ANTHROPOLOGY R5B P 001 LEC ": "Reading and Composition in Anthropology\u00a0"
         }, 
         {
-            "ANTHROPOLOGY R5B P 002 LEC ": "Introduction to Archaeology\u00a0"
+            "ANTHROPOLOGY R5B P 002 LEC ": "Reading and Composition in Anthropology\u00a0"
         }, 
         {
-            "ANTHROPOLOGY R5B P 003 LEC ": "Introduction to Archaeology\u00a0"
+            "ANTHROPOLOGY R5B P 003 LEC ": "Reading and Composition in Anthropology\u00a0"
         }, 
         {
-            "ANTHROPOLOGY R5B P 004 LEC ": "Introduction to Archaeology\u00a0"
+            "ANTHROPOLOGY R5B P 004 LEC ": "Reading and Composition in Anthropology\u00a0"
         }, 
         {
-            "ANTHROPOLOGY 24 P 001 SEM ": "Introduction to Archaeology\u00a0"
+            "ANTHROPOLOGY 24 P 001 SEM ": "Freshman Seminar\u00a0"
         }, 
         {
-            "ANTHROPOLOGY 84 P 001 SEM ": "Introduction to Archaeology\u00a0"
+            "ANTHROPOLOGY 84 P 001 SEM ": "Sophomore Seminar\u00a0"
         }, 
         {
-            "ANTHROPOLOGY 98 P 002 GRP ": "Introduction to Archaeology\u00a0"
+            "ANTHROPOLOGY 98 P 002 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "ANTHROPOLOGY 98 P 006 GRP ": "Introduction to Archaeology\u00a0"
+            "ANTHROPOLOGY 98 P 006 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "ANTHROPOLOGY 98 P 016 GRP ": "Introduction to Archaeology\u00a0"
+            "ANTHROPOLOGY 98 P 016 GRP ": "Directed Group Study\u00a0"
         }
     ], 
     "Asian American and Asian Diaspora Studies": [], 
@@ -92,13 +92,13 @@
             "ASIAN STUDIES 10 P 001 LEC ": "Introduction to Asia\u00a0"
         }, 
         {
-            "ASIAN STUDIES 98 P 006 GRP ": "Introduction to Asia\u00a0"
+            "ASIAN STUDIES 98 P 006 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "ASIAN STUDIES 98 P 007 GRP ": "Introduction to Asia\u00a0"
+            "ASIAN STUDIES 98 P 007 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "ASIAN STUDIES 98 P 008 GRP ": "Introduction to Asia\u00a0"
+            "ASIAN STUDIES 98 P 008 GRP ": "Directed Group Study\u00a0"
         }
     ], 
     "Astrophysics": [], 
@@ -130,13 +130,13 @@
             "CHEMISTRY 1A P 003 LEC ": "General Chemistry\u00a0"
         }, 
         {
-            "CHEMISTRY 1AL P 001 LEC ": "General Chemistry\u00a0"
+            "CHEMISTRY 1AL P 001 LEC ": "General Chemistry Laboratory\u00a0"
         }, 
         {
-            "CHEMISTRY 1AL P 002 LEC ": "General Chemistry\u00a0"
+            "CHEMISTRY 1AL P 002 LEC ": "General Chemistry Laboratory\u00a0"
         }, 
         {
-            "CHEMISTRY 1AL P 003 LEC ": "General Chemistry\u00a0"
+            "CHEMISTRY 1AL P 003 LEC ": "General Chemistry Laboratory\u00a0"
         }
     ], 
     "Chicano Studies": [
@@ -150,34 +150,34 @@
             "CHICANO STUDIES R1B P 001 LEC ": "Reading and Composition\u00a0"
         }, 
         {
-            "CHICANO STUDIES 24 P 001 SEM ": "Reading and Composition\u00a0"
+            "CHICANO STUDIES 24 P 001 SEM ": "Freshman Seminar\u00a0"
         }, 
         {
-            "CHICANO STUDIES 97 P 001 FLD ": "Reading and Composition\u00a0"
+            "CHICANO STUDIES 97 P 001 FLD ": "Field Study in Chicano Studies\u00a0"
         }, 
         {
-            "CHICANO STUDIES 97 P 2-13 FLD ": "Freshman Seminar\u00a0"
+            "CHICANO STUDIES 97 P 2-13 FLD ": "Field Study in Chicano Studies\u00a0"
         }, 
         {
-            "CHICANO STUDIES 98 P 001 GRP ": "Introduction to Chicano History\u00a0"
+            "CHICANO STUDIES 98 P 001 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "CHICANO STUDIES 98 P 004 GRP ": "Introduction to Chicano History\u00a0"
+            "CHICANO STUDIES 98 P 004 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "CHICANO STUDIES 98 P 005 GRP ": "Introduction to Chicano History\u00a0"
+            "CHICANO STUDIES 98 P 005 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "CHICANO STUDIES 98 P 7-8 GRP ": "Field Study in Chicano Studies\u00a0"
+            "CHICANO STUDIES 98 P 7-8 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "CHICANO STUDIES 98 P 009 GRP ": "Field Study in Chicano Studies\u00a0"
+            "CHICANO STUDIES 98 P 009 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
             "CHICANO STUDIES 98 P 010 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "CHICANO STUDIES 99 P 1-9 IND ": "Supervised Group Study\u00a0"
+            "CHICANO STUDIES 99 P 1-9 IND ": "Supervised Independent Study and Research\u00a0"
         }
     ], 
     "Classics": [
@@ -185,16 +185,16 @@
             "CLASSICS 10A P 001 LEC ": "Introduction to Greek Civilization\u00a0"
         }, 
         {
-            "CLASSICS 17A P 001 LEC ": "Introduction to Greek Civilization\u00a0"
+            "CLASSICS 17A P 001 LEC ": "Introduction to the Archaeology of the Greek World\u00a0"
         }, 
         {
-            "CLASSICS 24 P 002 SEM ": "Introduction to Greek Civilization\u00a0"
+            "CLASSICS 24 P 002 SEM ": "Freshman Seminars\u00a0"
         }, 
         {
-            "CLASSICS R44 P 001 LEC ": "Introduction to Greek Civilization\u00a0"
+            "CLASSICS R44 P 001 LEC ": "Roots of Western Civilization\u00a0"
         }, 
         {
-            "CLASSICS 99 P 1-3 IND ": "Introduction to Greek Civilization\u00a0"
+            "CLASSICS 99 P 1-3 IND ": "Supervised Independent Study and Research\u00a0"
         }
     ], 
     "Cognitive Science": [
@@ -261,10 +261,10 @@
             "COMPARATIVE LITERATURE 20 P 001 LEC ": "Episodes in Literary Cultures\u00a0"
         }, 
         {
-            "COMPARATIVE LITERATURE 24 P 001 SEM ": "Episodes in Literary Cultures\u00a0"
+            "COMPARATIVE LITERATURE 24 P 001 SEM ": "Freshman Seminar\u00a0"
         }, 
         {
-            "COMPARATIVE LITERATURE 39I P 001 SEM ": "Episodes in Literary Cultures\u00a0"
+            "COMPARATIVE LITERATURE 39I P 001 SEM ": "Freshman/Sophomore Seminar\u00a0"
         }
     ], 
     "Computer Science": [
@@ -293,34 +293,34 @@
             "COMPUTER SCIENCE 10 P 001 LEC ": "The Beauty and Joy of Computing\u00a0"
         }, 
         {
-            "COMPUTER SCIENCE 24 P 001 SEM ": "The Beauty and Joy of Computing\u00a0"
+            "COMPUTER SCIENCE 24 P 001 SEM ": "Freshman Seminars\u00a0"
         }, 
         {
-            "COMPUTER SCIENCE 39S P 001 SEM ": "The Beauty and Joy of Computing\u00a0"
+            "COMPUTER SCIENCE 39S P 001 SEM ": "Freshman/Sophomore Seminar\u00a0"
         }, 
         {
-            "COMPUTER SCIENCE 47A P 001 SLF ": "The Beauty and Joy of Computing\u00a0"
+            "COMPUTER SCIENCE 47A P 001 SLF ": "Completion of Work in Computer Science 61A\u00a0"
         }, 
         {
-            "COMPUTER SCIENCE 47B P 001 SLF ": "The Beauty and Joy of Computing\u00a0"
+            "COMPUTER SCIENCE 47B P 001 SLF ": "Completion of Work in Computer Science 61B\u00a0"
         }, 
         {
-            "COMPUTER SCIENCE 47C P 001 SLF ": "The Beauty and Joy of Computing\u00a0"
+            "COMPUTER SCIENCE 47C P 001 SLF ": "Completion of Work in Computer Science 61C\u00a0"
         }, 
         {
-            "COMPUTER SCIENCE 61A P 001 LEC ": "The Beauty and Joy of Computing\u00a0"
+            "COMPUTER SCIENCE 61A P 001 LEC ": "The Structure and Interpretation of Computer Progra...\u00a0"
         }, 
         {
-            "COMPUTER SCIENCE 61AS P 001 LAB ": "The Beauty and Joy of Computing\u00a0"
+            "COMPUTER SCIENCE 61AS P 001 LAB ": "The Structure and Interpretation of Computer Progra...\u00a0"
         }, 
         {
-            "COMPUTER SCIENCE 61AS P 002 LAB ": "The Beauty and Joy of Computing\u00a0"
+            "COMPUTER SCIENCE 61AS P 002 LAB ": "The Structure and Interpretation of Computer Progra...\u00a0"
         }, 
         {
-            "COMPUTER SCIENCE 61AS P 003 LAB ": "The Beauty and Joy of Computing\u00a0"
+            "COMPUTER SCIENCE 61AS P 003 LAB ": "The Structure and Interpretation of Computer Progra...\u00a0"
         }, 
         {
-            "COMPUTER SCIENCE 61B P 001 LEC ": "The Beauty and Joy of Computing\u00a0"
+            "COMPUTER SCIENCE 61B P 001 LEC ": "Data Structures\u00a0"
         }
     ], 
     "Development Studies": [
@@ -338,19 +338,19 @@
             "EARTH AND PLANETARY SCIENCE C12 P 001 LEC ": "The Planets\u00a0"
         }, 
         {
-            "EARTH AND PLANETARY SCIENCE C20 P 001 LEC ": "The Planets\u00a0"
+            "EARTH AND PLANETARY SCIENCE C20 P 001 LEC ": "Earthquakes in Your Backyard\u00a0"
         }, 
         {
-            "EARTH AND PLANETARY SCIENCE 24 P 001 SEM ": "The Planets\u00a0"
+            "EARTH AND PLANETARY SCIENCE 24 P 001 SEM ": "Freshman Seminar in Earth and Planetary Sciences\u00a0"
         }, 
         {
-            "EARTH AND PLANETARY SCIENCE 50 P 001 LEC ": "The Planets\u00a0"
+            "EARTH AND PLANETARY SCIENCE 50 P 001 LEC ": "The Planet Earth\u00a0"
         }, 
         {
-            "EARTH AND PLANETARY SCIENCE 80 P 001 LEC ": "The Planets\u00a0"
+            "EARTH AND PLANETARY SCIENCE 80 P 001 LEC ": "Environmental Earth Sciences\u00a0"
         }, 
         {
-            "EARTH AND PLANETARY SCIENCE C82 P 001 LEC ": "The Planets\u00a0"
+            "EARTH AND PLANETARY SCIENCE C82 P 001 LEC ": "Oceans\u00a0"
         }
     ], 
     "East Asian Languages and Culture": [], 
@@ -359,7 +359,7 @@
             "ECONOMICS 1 P 001 LEC ": "Introduction to Economics\u00a0"
         }, 
         {
-            "ECONOMICS C3 P 001 LEC ": "Introduction to Economics\u00a0"
+            "ECONOMICS C3 P 001 LEC ": "Introduction to Environmental Economics and Policy\u00a0"
         }
     ], 
     "English": [
@@ -466,25 +466,25 @@
             "ENGLISH 45C P 002 LEC ": "Literature in English\u00a0"
         }, 
         {
-            "ENGLISH C77 P 001 LEC ": "Literature in English\u00a0"
+            "ENGLISH C77 P 001 LEC ": "Introduction to Environmental Studies\u00a0"
         }, 
         {
-            "ENGLISH 84 P 001 SEM ": "Literature in English\u00a0"
+            "ENGLISH 84 P 001 SEM ": "Sophomore Seminar\u00a0"
         }, 
         {
-            "ENGLISH 98 P 1-15 GRP ": "Literature in English\u00a0"
+            "ENGLISH 98 P 1-15 GRP ": "Directed Group Study for Freshmen and Sophomores\u00a0"
         }, 
         {
-            "ENGLISH 98BC P 001 GRP ": "Literature in English\u00a0"
+            "ENGLISH 98BC P 001 GRP ": "Berkeley Connect\u00a0"
         }, 
         {
-            "ENGLISH 98BC P 002 GRP ": "Literature in English\u00a0"
+            "ENGLISH 98BC P 002 GRP ": "Berkeley Connect\u00a0"
         }, 
         {
-            "ENGLISH 98BC P 003 GRP ": "Literature in English\u00a0"
+            "ENGLISH 98BC P 003 GRP ": "Berkeley Connect\u00a0"
         }, 
         {
-            "ENGLISH 99 P 1-6 IND ": "Literature in English\u00a0"
+            "ENGLISH 99 P 1-6 IND ": "Independent Study\u00a0"
         }
     ], 
     "Environmental Economics and Policy": [
@@ -497,34 +497,34 @@
             "ETHNIC STUDIES 10AC P 001 LEC ": "A History of Race and Ethnicity in Western North Am...\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 24 P 001 SEM ": "A History of Race and Ethnicity in Western North Am...\u00a0"
+            "ETHNIC STUDIES 24 P 001 SEM ": "Freshman Seminar\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 41AC P 001 LEC ": "A History of Race and Ethnicity in Western North Am...\u00a0"
+            "ETHNIC STUDIES 41AC P 001 LEC ": "A Comparative Survey of Protest Movements Since the...\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 97 P 001 FLD ": "A History of Race and Ethnicity in Western North Am...\u00a0"
+            "ETHNIC STUDIES 97 P 001 FLD ": "Field Study in Communities of Color\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 97 P 002 FLD ": "A History of Race and Ethnicity in Western North Am...\u00a0"
+            "ETHNIC STUDIES 97 P 002 FLD ": "Field Study in Communities of Color\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 97 P 003 FLD ": "Freshman Seminar\u00a0"
+            "ETHNIC STUDIES 97 P 003 FLD ": "Field Study in Communities of Color\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 97 P 004 FLD ": "A Comparative Survey of Protest Movements Since the...\u00a0"
+            "ETHNIC STUDIES 97 P 004 FLD ": "Field Study in Communities of Color\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 97 P 005 FLD ": "A Comparative Survey of Protest Movements Since the...\u00a0"
+            "ETHNIC STUDIES 97 P 005 FLD ": "Field Study in Communities of Color\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 97 P 006 FLD ": "A Comparative Survey of Protest Movements Since the...\u00a0"
+            "ETHNIC STUDIES 97 P 006 FLD ": "Field Study in Communities of Color\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 97 P 007 FLD ": "A Comparative Survey of Protest Movements Since the...\u00a0"
+            "ETHNIC STUDIES 97 P 007 FLD ": "Field Study in Communities of Color\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 97 P 008 FLD ": "A Comparative Survey of Protest Movements Since the...\u00a0"
+            "ETHNIC STUDIES 97 P 008 FLD ": "Field Study in Communities of Color\u00a0"
         }, 
         {
             "ETHNIC STUDIES 97 P 009 FLD ": "Field Study in Communities of Color\u00a0"
@@ -563,28 +563,28 @@
             "ETHNIC STUDIES 97 P 20-21 FLD ": "Field Study in Communities of Color\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 98 P 001 GRP ": "Field Study in Communities of Color\u00a0"
+            "ETHNIC STUDIES 98 P 001 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 98 P 002 GRP ": "Field Study in Communities of Color\u00a0"
+            "ETHNIC STUDIES 98 P 002 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 98 P 003 GRP ": "Field Study in Communities of Color\u00a0"
+            "ETHNIC STUDIES 98 P 003 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 98 P 004 GRP ": "Field Study in Communities of Color\u00a0"
+            "ETHNIC STUDIES 98 P 004 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 98 P 005 GRP ": "Field Study in Communities of Color\u00a0"
+            "ETHNIC STUDIES 98 P 005 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 98 P 006 GRP ": "Field Study in Communities of Color\u00a0"
+            "ETHNIC STUDIES 98 P 006 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 98 P 007 GRP ": "Field Study in Communities of Color\u00a0"
+            "ETHNIC STUDIES 98 P 007 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 98 P 008 GRP ": "Field Study in Communities of Color\u00a0"
+            "ETHNIC STUDIES 98 P 008 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
             "ETHNIC STUDIES 98 P 009 GRP ": "Supervised Group Study\u00a0"
@@ -602,25 +602,25 @@
             "ETHNIC STUDIES 98 P 013 GRP ": "Supervised Group Study\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 98BC P 001 GRP ": "Supervised Group Study\u00a0"
+            "ETHNIC STUDIES 98BC P 001 GRP ": "Berkeley Connect\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 98BC P 002 GRP ": "Supervised Group Study\u00a0"
+            "ETHNIC STUDIES 98BC P 002 GRP ": "Berkeley Connect\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 99 P 001 IND ": "Supervised Group Study\u00a0"
+            "ETHNIC STUDIES 99 P 001 IND ": "Supervised Independent Study and Research\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 99 P 002 IND ": "Supervised Group Study\u00a0"
+            "ETHNIC STUDIES 99 P 002 IND ": "Supervised Independent Study and Research\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 99 P 003 IND ": "Supervised Group Study\u00a0"
+            "ETHNIC STUDIES 99 P 003 IND ": "Supervised Independent Study and Research\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 99 P 004 IND ": "Supervised Group Study\u00a0"
+            "ETHNIC STUDIES 99 P 004 IND ": "Supervised Independent Study and Research\u00a0"
         }, 
         {
-            "ETHNIC STUDIES 99 P 005 IND ": "Supervised Group Study\u00a0"
+            "ETHNIC STUDIES 99 P 005 IND ": "Supervised Independent Study and Research\u00a0"
         }
     ], 
     "Film": [
@@ -643,10 +643,10 @@
             "FILM AND MEDIA R1B P 004 LEC ": "The Craft of Writing - Film Focus\u00a0"
         }, 
         {
-            "FILM AND MEDIA 25A P 001 LEC ": "The Craft of Writing - Film Focus\u00a0"
+            "FILM AND MEDIA 25A P 001 LEC ": "The History of Film\u00a0"
         }, 
         {
-            "FILM AND MEDIA 26 P 001 LEC ": "The Craft of Writing - Film Focus\u00a0"
+            "FILM AND MEDIA 26 P 001 LEC ": "Moving Image Media\u00a0"
         }
     ], 
     "French": [
@@ -770,22 +770,22 @@
             "GENDER AND WOMEN'S STUDIES 10 P 001 LEC ": "Introduction to Gender and Women's Studies\u00a0"
         }, 
         {
-            "GENDER AND WOMEN'S STUDIES 50AC P 001 LEC ": "Introduction to Gender and Women's Studies\u00a0"
+            "GENDER AND WOMEN'S STUDIES 50AC P 001 LEC ": "Gender in American Culture\u00a0"
         }, 
         {
-            "GENDER AND WOMEN'S STUDIES 97 P 001 INT ": "Introduction to Gender and Women's Studies\u00a0"
+            "GENDER AND WOMEN'S STUDIES 97 P 001 INT ": "Internship\u00a0"
         }, 
         {
-            "GENDER AND WOMEN'S STUDIES 98 P 001 GRP ": "Introduction to Gender and Women's Studies\u00a0"
+            "GENDER AND WOMEN'S STUDIES 98 P 001 GRP ": "Directed Group Study for Undergraduates\u00a0"
         }, 
         {
-            "GENDER AND WOMEN'S STUDIES 98 P 002 GRP ": "Introduction to Gender and Women's Studies\u00a0"
+            "GENDER AND WOMEN'S STUDIES 98 P 002 GRP ": "Directed Group Study for Undergraduates\u00a0"
         }, 
         {
-            "GENDER AND WOMEN'S STUDIES 98 P 003 GRP ": "Gender in American Culture\u00a0"
+            "GENDER AND WOMEN'S STUDIES 98 P 003 GRP ": "Directed Group Study for Undergraduates\u00a0"
         }, 
         {
-            "GENDER AND WOMEN'S STUDIES 98 P 004 GRP ": "Internship\u00a0"
+            "GENDER AND WOMEN'S STUDIES 98 P 004 GRP ": "Directed Group Study for Undergraduates\u00a0"
         }, 
         {
             "GENDER AND WOMEN'S STUDIES 98 P 005 GRP ": "Directed Group Study for Undergraduates\u00a0"
@@ -802,37 +802,37 @@
             "GEOGRAPHY 10 P 001 LEC ": "World Regions, Peoples, and States\u00a0"
         }, 
         {
-            "GEOGRAPHY 24 P 001 SEM ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY 24 P 001 SEM ": "Freshman Seminar\u00a0"
         }, 
         {
-            "GEOGRAPHY C32 P 001 LEC ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY C32 P 001 LEC ": "Introduction to Development\u00a0"
         }, 
         {
-            "GEOGRAPHY 40 P 001 LEC ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY 40 P 001 LEC ": "Introduction to Earth System Science\u00a0"
         }, 
         {
-            "GEOGRAPHY C55 P 001 LEC ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY C55 P 001 LEC ": "Introduction to Central Asia\u00a0"
         }, 
         {
-            "GEOGRAPHY 70AC P 001 LEC ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY 70AC P 001 LEC ": "The Urban Experience\u00a0"
         }, 
         {
-            "GEOGRAPHY 80 P 001 LEC ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY 80 P 001 LEC ": "Digital Worlds: An Introduction to Geospatial Techn...\u00a0"
         }, 
         {
-            "GEOGRAPHY C82 P 001 LEC ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY C82 P 001 LEC ": "Oceans\u00a0"
         }, 
         {
-            "GEOGRAPHY 98 P 001 GRP ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY 98 P 001 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "GEOGRAPHY 98 P 002 GRP ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY 98 P 002 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "GEOGRAPHY 98 P 003 GRP ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY 98 P 003 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "GEOGRAPHY 98 P 004 GRP ": "World Regions, Peoples, and States\u00a0"
+            "GEOGRAPHY 98 P 004 GRP ": "Directed Group Study\u00a0"
         }
     ], 
     "German": [
@@ -914,43 +914,43 @@
             "HISTORY 2 P 001 LEC ": "Comparative World History\u00a0"
         }, 
         {
-            "HISTORY 4A P 001 LEC ": "Comparative World History\u00a0"
+            "HISTORY 4A P 001 LEC ": "The Ancient Mediterranean World\u00a0"
         }, 
         {
-            "HISTORY 5 P 001 LEC ": "Comparative World History\u00a0"
+            "HISTORY 5 P 001 LEC ": "European Civilization from the Renaissance to the P...\u00a0"
         }, 
         {
-            "HISTORY 6A P 001 LEC ": "Comparative World History\u00a0"
+            "HISTORY 6A P 001 LEC ": "History of China: Origins to the Mongol Conquest\u00a0"
         }, 
         {
-            "HISTORY 7A P 001 LEC ": "Comparative World History\u00a0"
+            "HISTORY 7A P 001 LEC ": "The United States from Settlement to Civil War\u00a0"
         }, 
         {
-            "HISTORY 8B P 001 LEC ": "Comparative World History\u00a0"
+            "HISTORY 8B P 001 LEC ": "Modern Latin America\u00a0"
         }, 
         {
-            "HISTORY 10 P 001 LEC ": "Comparative World History\u00a0"
+            "HISTORY 10 P 001 LEC ": "African History\u00a0"
         }, 
         {
-            "HISTORY 14 P 001 LEC ": "The Ancient Mediterranean World\u00a0"
+            "HISTORY 14 P 001 LEC ": "Introduction to the History of Japan\u00a0"
         }, 
         {
-            "HISTORY 24 P 002 SEM ": "The Ancient Mediterranean World\u00a0"
+            "HISTORY 24 P 002 SEM ": "Freshman Seminar\u00a0"
         }, 
         {
-            "HISTORY 84 P 001 SEM ": "The Ancient Mediterranean World\u00a0"
+            "HISTORY 84 P 001 SEM ": "Sophomore Seminar\u00a0"
         }, 
         {
-            "HISTORY 98 P 001 GRP ": "The Ancient Mediterranean World\u00a0"
+            "HISTORY 98 P 001 GRP ": "Directed Group Study for Lower Division Students\u00a0"
         }, 
         {
-            "HISTORY 98BC P 002 SEM ": "The Ancient Mediterranean World\u00a0"
+            "HISTORY 98BC P 002 SEM ": "Berkeley Connect for Lower Division Students\u00a0"
         }, 
         {
-            "HISTORY 98BC P 003 SEM ": "The Ancient Mediterranean World\u00a0"
+            "HISTORY 98BC P 003 SEM ": "Berkeley Connect for Lower Division Students\u00a0"
         }, 
         {
-            "HISTORY 98BC P 004 SEM ": "The Ancient Mediterranean World\u00a0"
+            "HISTORY 98BC P 004 SEM ": "Berkeley Connect for Lower Division Students\u00a0"
         }
     ], 
     "History of Art": [
@@ -985,13 +985,13 @@
             "HISTORY OF ART 10 P 001 LEC ": "Introduction to Western Art: Ancient to Medieval\u00a0"
         }, 
         {
-            "HISTORY OF ART 30 P 001 LEC ": "Introduction to Western Art: Ancient to Medieval\u00a0"
+            "HISTORY OF ART 30 P 001 LEC ": "Art of India\u00a0"
         }, 
         {
-            "HISTORY OF ART 62 P 001 LEC ": "Introduction to Western Art: Ancient to Medieval\u00a0"
+            "HISTORY OF ART 62 P 001 LEC ": "Introduction to Italian Renaissance Art\u00a0"
         }, 
         {
-            "HISTORY OF ART 88 P 001 LEC ": "Introduction to Western Art: Ancient to Medieval\u00a0"
+            "HISTORY OF ART 88 P 001 LEC ": "Arts of Latin America\u00a0"
         }
     ], 
     "Integrative Biology": [
@@ -999,37 +999,37 @@
             "INTEGRATIVE BIOLOGY C13 P 001 LEC ": "Origins: from the Big Bang to the Emergence of Huma...\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY 24 P 002 SEM ": "Origins: from the Big Bang to the Emergence of Huma...\u00a0"
+            "INTEGRATIVE BIOLOGY 24 P 002 SEM ": "Freshman Seminars\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY 24 P 003 SEM ": "Origins: from the Big Bang to the Emergence of Huma...\u00a0"
+            "INTEGRATIVE BIOLOGY 24 P 003 SEM ": "Freshman Seminars\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY 24 P 004 SEM ": "Origins: from the Big Bang to the Emergence of Huma...\u00a0"
+            "INTEGRATIVE BIOLOGY 24 P 004 SEM ": "Freshman Seminars\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY 24 P 005 SEM ": "Origins: from the Big Bang to the Emergence of Huma...\u00a0"
+            "INTEGRATIVE BIOLOGY 24 P 005 SEM ": "Freshman Seminars\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY 24 P 008 SEM ": "Origins: from the Big Bang to the Emergence of Huma...\u00a0"
+            "INTEGRATIVE BIOLOGY 24 P 008 SEM ": "Freshman Seminars\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY 35AC P 001 LEC ": "Origins: from the Big Bang to the Emergence of Huma...\u00a0"
+            "INTEGRATIVE BIOLOGY 35AC P 001 LEC ": "Human Biological Variation\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY C82 P 001 LEC ": "Freshman Seminars\u00a0"
+            "INTEGRATIVE BIOLOGY C82 P 001 LEC ": "Oceans\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY 84 P 001 SEM ": "Freshman Seminars\u00a0"
+            "INTEGRATIVE BIOLOGY 84 P 001 SEM ": "Sophomore Seminar\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY 95 P 001 LEC ": "Freshman Seminars\u00a0"
+            "INTEGRATIVE BIOLOGY 95 P 001 LEC ": "Special Research Project in Biology 1B\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY 95 P 002 LEC ": "Freshman Seminars\u00a0"
+            "INTEGRATIVE BIOLOGY 95 P 002 LEC ": "Special Research Project in Biology 1B\u00a0"
         }, 
         {
-            "INTEGRATIVE BIOLOGY C96 P 001 LEC ": "Freshman Seminars\u00a0"
+            "INTEGRATIVE BIOLOGY C96 P 001 LEC ": "Studying the Biological Sciences\u00a0"
         }
     ], 
     "Interdisciplinary Studies Field Major": [
@@ -1108,10 +1108,10 @@
             "ITALIAN STUDIES 40 P 001 LEC ": "Italian Culture (in English)\u00a0"
         }, 
         {
-            "ITALIAN STUDIES 50 P 001 LEC ": "Italian Culture (in English)\u00a0"
+            "ITALIAN STUDIES 50 P 001 LEC ": "The Italian Renaissance\u00a0"
         }, 
         {
-            "ITALIAN STUDIES 98 P 1-7 GRP ": "Italian Culture (in English)\u00a0"
+            "ITALIAN STUDIES 98 P 1-7 GRP ": "Directed Group Study\u00a0"
         }
     ], 
     "Latin American Studies": [
@@ -1132,31 +1132,31 @@
             "LINGUISTICS 1A P 001 LEC ": "American Sign Language I\u00a0"
         }, 
         {
-            "LINGUISTICS R1B P 001 LEC ": "American Sign Language I\u00a0"
+            "LINGUISTICS R1B P 001 LEC ": "Endangered Languages: What We Lose when a Language ...\u00a0"
         }, 
         {
             "LINGUISTICS R1B P 002 LEC ": "Endangered Languages: What We Lose when a Language ...\u00a0"
         }, 
         {
-            "LINGUISTICS 5 P 001 LEC ": "Endangered Languages: What We Lose when a Language ...\u00a0"
+            "LINGUISTICS 5 P 001 LEC ": "Language and Linguistics\u00a0"
         }, 
         {
-            "LINGUISTICS 11 P 001 LEC ": "Language and Linguistics\u00a0"
+            "LINGUISTICS 11 P 001 LEC ": "Writing Systems\u00a0"
         }, 
         {
-            "LINGUISTICS 16 P 001 LEC ": "Language and Linguistics\u00a0"
+            "LINGUISTICS 16 P 001 LEC ": "The English Vocabulary\u00a0"
         }, 
         {
-            "LINGUISTICS 24 P 001 SEM ": "Language and Linguistics\u00a0"
+            "LINGUISTICS 24 P 001 SEM ": "Freshman Seminar\u00a0"
         }, 
         {
-            "LINGUISTICS 24 P 002 SEM ": "Language and Linguistics\u00a0"
+            "LINGUISTICS 24 P 002 SEM ": "Freshman Seminar\u00a0"
         }, 
         {
-            "LINGUISTICS 51 P 001 LEC ": "Language and Linguistics\u00a0"
+            "LINGUISTICS 51 P 001 LEC ": "The Brain's Politics: How the Framing of Issues Wor...\u00a0"
         }, 
         {
-            "LINGUISTICS 98 P 002 GRP ": "Language and Linguistics\u00a0"
+            "LINGUISTICS 98 P 002 GRP ": "Directed Group Study\u00a0"
         }
     ], 
     "Mathematics": [
@@ -1176,13 +1176,13 @@
             "MATHEMATICS 1B P 002 LEC ": "Calculus\u00a0"
         }, 
         {
-            "MATHEMATICS H1B P 001 LEC ": "Calculus\u00a0"
+            "MATHEMATICS H1B P 001 LEC ": "Honors Calculus\u00a0"
         }, 
         {
-            "MATHEMATICS 10A P 001 LEC ": "Calculus\u00a0"
+            "MATHEMATICS 10A P 001 LEC ": "Methods of Mathematics: Calculus, Statistics, and C...\u00a0"
         }, 
         {
-            "MATHEMATICS 16A P 001 LEC ": "Calculus\u00a0"
+            "MATHEMATICS 16A P 001 LEC ": "Analytic Geometry and Calculus\u00a0"
         }
     ], 
     "Media Studies": [
@@ -1200,31 +1200,31 @@
             "MOLECULAR AND CELL BIOLOGY 32 P 001 LEC ": "Introduction to Human Physiology\u00a0"
         }, 
         {
-            "MOLECULAR AND CELL BIOLOGY 32L P 001 LEC ": "Introduction to Human Physiology\u00a0"
+            "MOLECULAR AND CELL BIOLOGY 32L P 001 LEC ": "Introduction to Human Physiology Laboratory\u00a0"
         }, 
         {
-            "MOLECULAR AND CELL BIOLOGY 55 P 001 LEC ": "Introduction to Human Physiology\u00a0"
+            "MOLECULAR AND CELL BIOLOGY 55 P 001 LEC ": "Plagues and Pandemics\u00a0"
         }, 
         {
-            "MOLECULAR AND CELL BIOLOGY C62 P 001 LEC ": "Introduction to Human Physiology\u00a0"
+            "MOLECULAR AND CELL BIOLOGY C62 P 001 LEC ": "Drugs and the Brain\u00a0"
         }, 
         {
-            "MOLECULAR AND CELL BIOLOGY C64 P 001 LEC ": "Introduction to Human Physiology\u00a0"
+            "MOLECULAR AND CELL BIOLOGY C64 P 001 LEC ": "Exploring the Brain: Introduction to Neuroscience\u00a0"
         }, 
         {
-            "MOLECULAR AND CELL BIOLOGY 90A P 001 SEM ": "Introduction to Human Physiology\u00a0"
+            "MOLECULAR AND CELL BIOLOGY 90A P 001 SEM ": "Biochemistry and Molecular Biology\u00a0"
         }, 
         {
-            "MOLECULAR AND CELL BIOLOGY 90A P 002 SEM ": "Introduction to Human Physiology\u00a0"
+            "MOLECULAR AND CELL BIOLOGY 90A P 002 SEM ": "Biochemistry and Molecular Biology\u00a0"
         }, 
         {
-            "MOLECULAR AND CELL BIOLOGY 90B P 001 SEM ": "Introduction to Human Physiology\u00a0"
+            "MOLECULAR AND CELL BIOLOGY 90B P 001 SEM ": "Cell and Developmental Biology\u00a0"
         }, 
         {
-            "MOLECULAR AND CELL BIOLOGY 90E P 001 SEM ": "Introduction to Human Physiology\u00a0"
+            "MOLECULAR AND CELL BIOLOGY 90E P 001 SEM ": "Neurobiology\u00a0"
         }, 
         {
-            "MOLECULAR AND CELL BIOLOGY C96 P 001 LEC ": "Introduction to Human Physiology\u00a0"
+            "MOLECULAR AND CELL BIOLOGY C96 P 001 LEC ": "Studying the Biological Sciences\u00a0"
         }
     ], 
     "Music": [
@@ -1262,79 +1262,79 @@
             "MUSIC 27 P 001 LEC ": "Introduction to Western Music\u00a0"
         }, 
         {
-            "MUSIC 40 P 001 LAB ": "Introduction to Western Music\u00a0"
+            "MUSIC 40 P 001 LAB ": "Group Carillon Lessons for Beginning Students\u00a0"
         }, 
         {
-            "MUSIC 41A P 001 LAB ": "Introduction to Western Music\u00a0"
+            "MUSIC 41A P 001 LAB ": "Private Carillon Lessons for Beginning Students\u00a0"
         }, 
         {
-            "MUSIC 41B P 001 LAB ": "Introduction to Western Music\u00a0"
+            "MUSIC 41B P 001 LAB ": "Private Carillon Lessons for Intermediate Students\u00a0"
         }, 
         {
-            "MUSIC 42 P 001 LAB ": "Introduction to Western Music\u00a0"
+            "MUSIC 42 P 001 LAB ": "Carillon Lessons for Advanced Students\u00a0"
         }, 
         {
-            "MUSIC 44 P 001 STD ": "Introduction to Western Music\u00a0"
+            "MUSIC 44 P 001 STD ": "Voice Class\u00a0"
         }, 
         {
-            "MUSIC 44 P 002 STD ": "Introduction to Western Music\u00a0"
+            "MUSIC 44 P 002 STD ": "Voice Class\u00a0"
         }, 
         {
-            "MUSIC 49B P 001 LEC ": "Introduction to Western Music\u00a0"
+            "MUSIC 49B P 001 LEC ": "Musicianship\u00a0"
         }, 
         {
-            "MUSIC 49B P 002 LEC ": "Introduction to Western Music\u00a0"
+            "MUSIC 49B P 002 LEC ": "Musicianship\u00a0"
         }, 
         {
-            "MUSIC 49C P 001 LEC ": "Introduction to Western Music\u00a0"
+            "MUSIC 49C P 001 LEC ": "Harmony\u00a0"
         }, 
         {
-            "MUSIC 49C P 002 LEC ": "Introduction to Western Music\u00a0"
+            "MUSIC 49C P 002 LEC ": "Harmony\u00a0"
         }, 
         {
-            "MUSIC 50 P 001 LEC ": "Introduction to Western Music\u00a0"
+            "MUSIC 50 P 001 LEC ": "Musicianship\u00a0"
         }, 
         {
-            "MUSIC 51 P 001 LEC ": "Introduction to Western Music\u00a0"
+            "MUSIC 51 P 001 LEC ": "Musicianship\u00a0"
         }, 
         {
-            "MUSIC 51 P 002 LEC ": "Introduction to Western Music\u00a0"
+            "MUSIC 51 P 002 LEC ": "Musicianship\u00a0"
         }, 
         {
-            "MUSIC 60 P 001 LEC ": "Group Carillon Lessons for Beginning Students\u00a0"
+            "MUSIC 60 P 001 LEC ": "Harmony\u00a0"
         }, 
         {
-            "MUSIC 61 P 001 LEC ": "Private Carillon Lessons for Beginning Students\u00a0"
+            "MUSIC 61 P 001 LEC ": "Harmony\u00a0"
         }, 
         {
-            "MUSIC 61 P 002 LEC ": "Private Carillon Lessons for Intermediate Students\u00a0"
+            "MUSIC 61 P 002 LEC ": "Harmony\u00a0"
         }, 
         {
-            "MUSIC 74 P 001 LEC ": "Carillon Lessons for Advanced Students\u00a0"
+            "MUSIC 74 P 001 LEC ": "Introduction to Selected Musics of the World\u00a0"
         }, 
         {
-            "MUSIC 74 P 002 LEC ": "Voice Class\u00a0"
+            "MUSIC 74 P 002 LEC ": "Introduction to Selected Musics of the World\u00a0"
         }, 
         {
-            "MUSIC 74 P 003 LEC ": "Voice Class\u00a0"
+            "MUSIC 74 P 003 LEC ": "Introduction to Selected Musics of the World\u00a0"
         }, 
         {
-            "MUSIC 76 P 001 LEC ": "Musicianship\u00a0"
+            "MUSIC 76 P 001 LEC ": "History of Western Music: The 18th and 19th Centuri...\u00a0"
         }, 
         {
-            "MUSIC 97 P 001 FLD ": "Musicianship\u00a0"
+            "MUSIC 97 P 001 FLD ": "Field Studies\u00a0"
         }, 
         {
-            "MUSIC 98 P 012 GRP ": "Harmony\u00a0"
+            "MUSIC 98 P 012 GRP ": "Directed Group Study for Freshmen and Sophomores\u00a0"
         }, 
         {
-            "MUSIC 98BC P 001 LEC ": "Harmony\u00a0"
+            "MUSIC 98BC P 001 LEC ": "Berkeley Connect\u00a0"
         }, 
         {
-            "MUSIC 98BC P 002 LEC ": "Musicianship\u00a0"
+            "MUSIC 98BC P 002 LEC ": "Berkeley Connect\u00a0"
         }, 
         {
-            "MUSIC 99 P 1-6 IND ": "Musicianship\u00a0"
+            "MUSIC 99 P 1-6 IND ": "Independent Study for Freshmen and Sophomores\u00a0"
         }
     ], 
     "Native American Studies": [
@@ -1348,31 +1348,31 @@
             "NATIVE AMERICAN STUDIES R1B P 001 LEC ": "Native American Studies Reading and Composition\u00a0"
         }, 
         {
-            "NATIVE AMERICAN STUDIES 20A P 001 LEC ": "Native American Studies Reading and Composition\u00a0"
+            "NATIVE AMERICAN STUDIES 20A P 001 LEC ": "Introduction to Native American Studies\u00a0"
         }, 
         {
-            "NATIVE AMERICAN STUDIES 71 P 001 LEC ": "Native American Studies Reading and Composition\u00a0"
+            "NATIVE AMERICAN STUDIES 71 P 001 LEC ": "Native Americans in North America to 1900\u00a0"
         }, 
         {
-            "NATIVE AMERICAN STUDIES 90 P 001 SEM ": "Native American Studies Reading and Composition\u00a0"
+            "NATIVE AMERICAN STUDIES 90 P 001 SEM ": "Freshman Seminar--Myth, Memory and History\u00a0"
         }, 
         {
-            "NATIVE AMERICAN STUDIES 90 P 002 SEM ": "Introduction to Native American Studies\u00a0"
+            "NATIVE AMERICAN STUDIES 90 P 002 SEM ": "Freshman Seminar--Myth, Memory and History\u00a0"
         }, 
         {
-            "NATIVE AMERICAN STUDIES 97 P 1-4 FLD ": "Native Americans in North America to 1900\u00a0"
+            "NATIVE AMERICAN STUDIES 97 P 1-4 FLD ": "Field Work in Native American Communities\u00a0"
         }, 
         {
-            "NATIVE AMERICAN STUDIES 98 P 001 GRP ": "Freshman Seminar--Myth, Memory and History\u00a0"
+            "NATIVE AMERICAN STUDIES 98 P 001 GRP ": "Supervised Group Study and Research\u00a0"
         }, 
         {
-            "NATIVE AMERICAN STUDIES 98 P 002 GRP ": "Freshman Seminar--Myth, Memory and History\u00a0"
+            "NATIVE AMERICAN STUDIES 98 P 002 GRP ": "Supervised Group Study and Research\u00a0"
         }, 
         {
-            "NATIVE AMERICAN STUDIES 99 P 001 IND ": "Field Work in Native American Communities\u00a0"
+            "NATIVE AMERICAN STUDIES 99 P 001 IND ": "Supervised Independent Study and Research\u00a0"
         }, 
         {
-            "NATIVE AMERICAN STUDIES 99 P 2-4 IND ": "Supervised Group Study and Research\u00a0"
+            "NATIVE AMERICAN STUDIES 99 P 2-4 IND ": "Supervised Independent Study and Research\u00a0"
         }
     ], 
     "Near Eastern Studies": [
@@ -1383,13 +1383,13 @@
             "NEAR EASTERN STUDIES 10 P 001 LEC ": "Introduction to the Near East\u00a0"
         }, 
         {
-            "NEAR EASTERN STUDIES 18 P 001 LEC ": "Introduction to the Near East\u00a0"
+            "NEAR EASTERN STUDIES 18 P 001 LEC ": "Introduction to Ancient Egypt\u00a0"
         }, 
         {
-            "NEAR EASTERN STUDIES 24 P 001 SEM ": "Introduction to the Near East\u00a0"
+            "NEAR EASTERN STUDIES 24 P 001 SEM ": "Freshman Seminars\u00a0"
         }, 
         {
-            "NEAR EASTERN STUDIES C26 P 001 LEC ": "Introduction to the Near East\u00a0"
+            "NEAR EASTERN STUDIES C26 P 001 LEC ": "Introduction to Central Asia\u00a0"
         }
     ], 
     "Operations Research and Management Science": [], 
@@ -1398,7 +1398,7 @@
             "PEACE AND CONFLICT STUDIES 10 P 001 LEC ": "Introduction to Peace and Conflict Studies\u00a0"
         }, 
         {
-            "PEACE AND CONFLICT STUDIES 94 P 001 DIS ": "Introduction to Peace and Conflict Studies\u00a0"
+            "PEACE AND CONFLICT STUDIES 94 P 001 DIS ": "Theory and Practice of Meditation\u00a0"
         }
     ], 
     "Philosophy": [
@@ -1454,10 +1454,10 @@
             "POLITICAL SCIENCE 1 P 001 LEC ": "Introduction to American Politics\u00a0"
         }, 
         {
-            "POLITICAL SCIENCE 3 P 001 LEC ": "Introduction to American Politics\u00a0"
+            "POLITICAL SCIENCE 3 P 001 LEC ": "Introduction to Empirical Analysis and Quantitative...\u00a0"
         }, 
         {
-            "POLITICAL SCIENCE 5 P 001 LEC ": "Introduction to American Politics\u00a0"
+            "POLITICAL SCIENCE 5 P 001 LEC ": "Introduction to International Relations\u00a0"
         }
     ], 
     "Practice of Art": [
@@ -1465,49 +1465,49 @@
             "PRACTICE OF ART 8 P 001 LEC ": "Introduction to Visual Thinking\u00a0"
         }, 
         {
-            "PRACTICE OF ART 12 P 001 LEC ": "Introduction to Visual Thinking\u00a0"
+            "PRACTICE OF ART 12 P 001 LEC ": "The Language of Drawing\u00a0"
         }, 
         {
-            "PRACTICE OF ART 12 P 002 LEC ": "Introduction to Visual Thinking\u00a0"
+            "PRACTICE OF ART 12 P 002 LEC ": "The Language of Drawing\u00a0"
         }, 
         {
-            "PRACTICE OF ART 13 P 002 LEC ": "Introduction to Visual Thinking\u00a0"
+            "PRACTICE OF ART 13 P 002 LEC ": "Language of Painting\u00a0"
         }, 
         {
-            "PRACTICE OF ART 14 P 001 LEC ": "Introduction to Visual Thinking\u00a0"
+            "PRACTICE OF ART 14 P 001 LEC ": "The Language of Sculpture\u00a0"
         }, 
         {
-            "PRACTICE OF ART 14 P 002 LEC ": "The Language of Drawing\u00a0"
+            "PRACTICE OF ART 14 P 002 LEC ": "The Language of Sculpture\u00a0"
         }, 
         {
-            "PRACTICE OF ART 16 P 001 LEC ": "The Language of Drawing\u00a0"
+            "PRACTICE OF ART 16 P 001 LEC ": "Introduction to Printmaking\u00a0"
         }, 
         {
-            "PRACTICE OF ART 21 P 001 LEC ": "Language of Painting\u00a0"
+            "PRACTICE OF ART 21 P 001 LEC ": "Digital Photography: The Image and the Hive Mind\u00a0"
         }, 
         {
-            "PRACTICE OF ART 23AC P 001 LEC ": "The Language of Sculpture\u00a0"
+            "PRACTICE OF ART 23AC P 001 LEC ": "Foundations of American Cyber-Culture\u00a0"
         }, 
         {
-            "PRACTICE OF ART 26 P 001 LEC ": "The Language of Sculpture\u00a0"
+            "PRACTICE OF ART 26 P 001 LEC ": "Moving Image Media Production\u00a0"
         }, 
         {
-            "PRACTICE OF ART 98 P 001 GRP ": "Introduction to Printmaking\u00a0"
+            "PRACTICE OF ART 98 P 001 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "PRACTICE OF ART 98 P 002 GRP ": "Digital Photography: The Image and the Hive Mind\u00a0"
+            "PRACTICE OF ART 98 P 002 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "PRACTICE OF ART 98 P 003 GRP ": "Foundations of American Cyber-Culture\u00a0"
+            "PRACTICE OF ART 98 P 003 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "PRACTICE OF ART 98 P 005 GRP ": "Moving Image Media Production\u00a0"
+            "PRACTICE OF ART 98 P 005 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "PRACTICE OF ART 98 P 006 GRP ": "Moving Image Media Production\u00a0"
+            "PRACTICE OF ART 98 P 006 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "PRACTICE OF ART 98 P 007 GRP ": "Moving Image Media Production\u00a0"
+            "PRACTICE OF ART 98 P 007 GRP ": "Directed Group Study\u00a0"
         }, 
         {
             "PRACTICE OF ART 98 P 008 GRP ": "Directed Group Study\u00a0"
@@ -1534,7 +1534,7 @@
             "PRACTICE OF ART 98 P 015 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "PRACTICE OF ART 99 P 1-5 IND ": "Directed Group Study\u00a0"
+            "PRACTICE OF ART 99 P 1-5 IND ": "Supervised Independent Study\u00a0"
         }
     ], 
     "Psychology": [
@@ -1545,19 +1545,19 @@
             "PSYCHOLOGY W1 P 001 WBL ": "General Psychology\u00a0"
         }, 
         {
-            "PSYCHOLOGY 2 P 001 LEC ": "General Psychology\u00a0"
+            "PSYCHOLOGY 2 P 001 LEC ": "Principles of Psychology\u00a0"
         }, 
         {
-            "PSYCHOLOGY 10 P 001 LEC ": "General Psychology\u00a0"
+            "PSYCHOLOGY 10 P 001 LEC ": "Research and Data Analysis in Psychology\u00a0"
         }, 
         {
-            "PSYCHOLOGY C19 P 001 LEC ": "General Psychology\u00a0"
+            "PSYCHOLOGY C19 P 001 LEC ": "Drugs and the Brain\u00a0"
         }, 
         {
-            "PSYCHOLOGY 24 P 001 SEM ": "General Psychology\u00a0"
+            "PSYCHOLOGY 24 P 001 SEM ": "Freshman Seminars\u00a0"
         }, 
         {
-            "PSYCHOLOGY C64 P 001 LEC ": "General Psychology\u00a0"
+            "PSYCHOLOGY C64 P 001 LEC ": "Exploring the Brain: Introduction to Neuroscience\u00a0"
         }
     ], 
     "Public Health": [
@@ -1650,7 +1650,7 @@
             "RHETORIC 10 P 001 LEC ": "Introduction to Practical Reasoning and Critical An...\u00a0"
         }, 
         {
-            "RHETORIC 24 P 001 SEM ": "Introduction to Practical Reasoning and Critical An...\u00a0"
+            "RHETORIC 24 P 001 SEM ": "Freshman Seminars\u00a0"
         }
     ], 
     "Scandinavian": [
@@ -1775,28 +1775,28 @@
             "SOCIOLOGY 1 P 001 LEC ": "Introduction to Sociology\u00a0"
         }, 
         {
-            "SOCIOLOGY 3AC P 001 LEC ": "Introduction to Sociology\u00a0"
+            "SOCIOLOGY 3AC P 001 LEC ": "Principles of Sociology: American Cultures\u00a0"
         }, 
         {
-            "SOCIOLOGY 5 P 001 LEC ": "Introduction to Sociology\u00a0"
+            "SOCIOLOGY 5 P 001 LEC ": "Evaluation of Evidence\u00a0"
         }, 
         {
-            "SOCIOLOGY 98 P 011 GRP ": "Introduction to Sociology\u00a0"
+            "SOCIOLOGY 98 P 011 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "SOCIOLOGY 98 P 012 GRP ": "Introduction to Sociology\u00a0"
+            "SOCIOLOGY 98 P 012 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "SOCIOLOGY 98 P 013 GRP ": "Introduction to Sociology\u00a0"
+            "SOCIOLOGY 98 P 013 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "SOCIOLOGY 98BC P 001 GRP ": "Introduction to Sociology\u00a0"
+            "SOCIOLOGY 98BC P 001 GRP ": "Directed Group Study Berkeley Connect\u00a0"
         }, 
         {
-            "SOCIOLOGY 98BC P 002 GRP ": "Introduction to Sociology\u00a0"
+            "SOCIOLOGY 98BC P 002 GRP ": "Directed Group Study Berkeley Connect\u00a0"
         }, 
         {
-            "SOCIOLOGY 98BC P 003 GRP ": "Introduction to Sociology\u00a0"
+            "SOCIOLOGY 98BC P 003 GRP ": "Directed Group Study Berkeley Connect\u00a0"
         }
     ], 
     "Southern and Southeastern Asian Studies": [], 
@@ -1806,16 +1806,16 @@
             "STATISTICS 2 P 001 LEC ": "Introduction to Statistics\u00a0"
         }, 
         {
-            "STATISTICS 20 P 001 LEC ": "Introduction to Statistics\u00a0"
+            "STATISTICS 20 P 001 LEC ": "Introduction to Probability and Statistics\u00a0"
         }, 
         {
-            "STATISTICS 20 P 002 LEC ": "Introduction to Statistics\u00a0"
+            "STATISTICS 20 P 002 LEC ": "Introduction to Probability and Statistics\u00a0"
         }, 
         {
-            "STATISTICS 20 P 003 LEC ": "Introduction to Statistics\u00a0"
+            "STATISTICS 20 P 003 LEC ": "Introduction to Probability and Statistics\u00a0"
         }, 
         {
-            "STATISTICS 21 P 001 LEC ": "Introduction to Statistics\u00a0"
+            "STATISTICS 21 P 001 LEC ": "Introductory Probability and Statistics for Busines...\u00a0"
         }
     ], 
     "Theater, Dance, and Performance Studies": [
@@ -1865,25 +1865,25 @@
             "THEATER, DANCE, AND PERFORMANCE ST 26 P 001 LEC ": "Introduction to Performance Studies\u00a0"
         }, 
         {
-            "THEATER, DANCE, AND PERFORMANCE ST 40 P 001 STD ": "Introduction to Performance Studies\u00a0"
+            "THEATER, DANCE, AND PERFORMANCE ST 40 P 001 STD ": "Introduction to Modern Dance Technique\u00a0"
         }, 
         {
-            "THEATER, DANCE, AND PERFORMANCE ST 52AC P 001 LEC ": "Introduction to Performance Studies\u00a0"
+            "THEATER, DANCE, AND PERFORMANCE ST 52AC P 001 LEC ": "Reflections of Gender, Culture, and Ethnicity in Am...\u00a0"
         }, 
         {
-            "THEATER, DANCE, AND PERFORMANCE ST 60 P 001 LEC ": "Introduction to Modern Dance Technique\u00a0"
+            "THEATER, DANCE, AND PERFORMANCE ST 60 P 001 LEC ": "Introduction to Technical Theater and Production\u00a0"
         }, 
         {
-            "THEATER, DANCE, AND PERFORMANCE ST 98 P 001 GRP ": "Reflections of Gender, Culture, and Ethnicity in Am...\u00a0"
+            "THEATER, DANCE, AND PERFORMANCE ST 98 P 001 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "THEATER, DANCE, AND PERFORMANCE ST 98 P 002 GRP ": "Introduction to Technical Theater and Production\u00a0"
+            "THEATER, DANCE, AND PERFORMANCE ST 98 P 002 GRP ": "Directed Group Study\u00a0"
         }, 
         {
             "THEATER, DANCE, AND PERFORMANCE ST 98 P 003 GRP ": "Directed Group Study\u00a0"
         }, 
         {
-            "THEATER, DANCE, AND PERFORMANCE ST 99 P 001 IND ": "Directed Group Study\u00a0"
+            "THEATER, DANCE, AND PERFORMANCE ST 99 P 001 IND ": "Independent Study\u00a0"
         }
     ]
 }
