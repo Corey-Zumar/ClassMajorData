@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -18,17 +19,27 @@ public class MajorsParser {
 		
 	}
 	
-	public Map<String, String> parseMajors() {
+	public Map<String, String[]> parseMajors() {
 		String majorsText = parseMajorsFile();
 		majorsText = majorsText.replaceAll("(\\\\r)|(\\\\t)", "");
-		Map<String, String> majorsMap = new HashMap<String, String>();
+		Map<String, String[]> majorsMap = new HashMap<String, String[]>();
 		try {
 			JSONObject obj = new JSONObject(majorsText);
 			Iterator<?> objIterator = obj.keys();
 			while(objIterator.hasNext()) {
-				String key = (String) objIterator.next();
-				String major = (String) obj.get(key);
-				majorsMap.put(key, major);
+				String major = (String) objIterator.next();
+				JSONObject inner =  obj.getJSONObject(major);
+				Iterator<?> innerIterator = inner.keys();
+				while(innerIterator.hasNext()) {
+					String description = (String) innerIterator.next();
+					JSONArray relatedArray = inner.getJSONArray(description);
+					String[] related = new String[relatedArray.length()];
+					for(int i = 0; i < relatedArray.length(); i++) {
+						related[i] = relatedArray.getString(i);
+					}
+					majorsMap.put(major, related);
+				}
+				//majorsMap.put(major, description);
 			}
 		} catch (JSONException e) {
 			e.printStackTrace();
@@ -57,7 +68,14 @@ public class MajorsParser {
 	
 	public static void main(String[] args) {
 		MajorsParser parser = new MajorsParser();
-		Map<String, String> majorsMap = parser.parseMajors();
+		Map<String, String[]> majorsMap = parser.parseMajors();
+		for(String key : majorsMap.keySet()) {
+			System.out.println(key.toUpperCase());
+			String[] hax = majorsMap.get(key);
+			for(String str : hax) {
+				System.out.println(str);
+			}
+		}
 	}
 
 }
