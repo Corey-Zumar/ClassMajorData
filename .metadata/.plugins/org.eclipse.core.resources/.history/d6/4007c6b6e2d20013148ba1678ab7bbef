@@ -12,13 +12,14 @@ public class Classes {
 	public Classes(String major) {
 		myMajor = major;
 		otherMajors = new Majors();
+		unrelatedMajors = new Object[5];
 	}
 	
-	public void addDepths(int numMajors, double depth) {
+	public void addDepths() {
 		MajorsParser parser = new MajorsParser();
 		Map<String, String[]> map = parser.parseMajors();
 		otherMajors.addRelated(map);
-		unrelatedMajors = otherMajors.relatedMajors.farVertices(myMajor, numMajors,depth);
+		unrelatedMajors = otherMajors.relatedMajors.farVertices(myMajor, 3,0.05);
 	}
 	
 	public Course[][] coursesForMajor(Map<String, Course[]> map) {
@@ -39,7 +40,6 @@ public class Classes {
 				title = map.get(unrelatedMajors[i])[j].toString();
 			}
 		}
-		System.out.println("");
 		return courses;
 	}
 	
@@ -61,50 +61,39 @@ public class Classes {
 				title = map.get(unrelatedMajors[i])[j].toString();
 			}
 		}
-		System.out.println("");
 		return courses;
 	}	
 	
-	public static void unrelatedCourses(String major, int numMajors, double depth) {
+	public static void unrelatedCourses() {
 		Map<String, Course[]> map = CoursesParser.parseCourses();
-		Classes myClasses = new Classes(major);
-		myClasses.addDepths(numMajors, depth);
+		Classes myClasses = new Classes("Computer Science");
+		myClasses.addDepths();
 		Course[][] unrelatedCourses = myClasses.coursesForMajor(map);
-		for (int i = 0; i < numMajors; i++) {
-			System.out.println(myClasses.unrelatedMajors[i]);
+		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < unrelatedCourses[i].length; j++) {
 				if (unrelatedCourses[i][j] != null) {
+					System.out.println(myClasses.unrelatedMajors[i]);
 					System.out.println(unrelatedCourses[i][j] + ": " + unrelatedCourses[i][j].getSection());
+					System.out.println("");
 				}
 			}
-			if (unrelatedCourses[i][0] == null) {
-				System.out.println("No Classes");
-			}
-			System.out.print("\n");
 		}
 	}
 	
-	public static void breadthCourses(String major, int numMajors, double depth) {
+	public static void breadthCourses() {
 		Map<String, Course[]> map = CoursesParser.parseCourses();
-		Classes myClasses = new Classes(major);
-		myClasses.addDepths(numMajors, depth);
+		Classes myClasses = new Classes("Computer Science");
+		myClasses.addDepths();
 		Course[][] unrelatedBreadths = myClasses.breadthsForMajor(map);
-		for (int i = 0; i < numMajors; i++) {
-			System.out.println(myClasses.unrelatedMajors[i]);
+		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < unrelatedBreadths[i].length; j++) {
 				if (unrelatedBreadths[i][j] != null) {
+					System.out.println(myClasses.unrelatedMajors[i]);
 					System.out.println(unrelatedBreadths[i][j] + ": " + unrelatedBreadths[i][j].getSection());
+					System.out.println("");
 				}
 			}
-			if (unrelatedBreadths[i][0] == null) {
-				System.out.println("No Classes");
-			}
-			System.out.print("\n");
 		}
-	}
-	
-	public static void main(String[] args) {
-		unrelatedCourses("Astrophysics", 5, 0);
 	}
 	
 }

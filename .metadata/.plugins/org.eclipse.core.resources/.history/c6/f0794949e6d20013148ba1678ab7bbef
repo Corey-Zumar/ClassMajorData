@@ -77,9 +77,6 @@ public class Classes {
 					System.out.println(unrelatedCourses[i][j] + ": " + unrelatedCourses[i][j].getSection());
 				}
 			}
-			if (unrelatedCourses[i][0] == null) {
-				System.out.println("No Classes");
-			}
 			System.out.print("\n");
 		}
 	}
@@ -95,9 +92,6 @@ public class Classes {
 				if (unrelatedBreadths[i][j] != null) {
 					System.out.println(unrelatedBreadths[i][j] + ": " + unrelatedBreadths[i][j].getSection());
 				}
-			}
-			if (unrelatedBreadths[i][0] == null) {
-				System.out.println("No Classes");
 			}
 			System.out.print("\n");
 		}
