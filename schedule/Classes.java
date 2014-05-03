@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Map;
 
 import majors.MajorsParser;
@@ -104,7 +107,47 @@ public class Classes {
 	}
 	
 	public static void main(String[] args) {
-		if (args.length < 3 || args.length > 4) {
+		String[] inputs = new String[4];
+		BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Please input the name of your major");
+		try {
+			String inputMajor = keyboard.readLine();
+			inputs[0] = inputMajor;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("How many majors would you like to consider for classes?");
+		try {
+			String inputNumMajors = keyboard.readLine();
+			inputs[1] = inputNumMajors;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("On a scale of 0 - 1, how relevant to your " +
+				"major should your new courses be?");
+		try {
+			String relatability = keyboard.readLine();
+			inputs[2] = relatability;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("Consider breadths?");
+		try {
+			String breadths = keyboard.readLine();
+			inputs[3] = breadths;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		run(inputs);
+		
+		/*if (args.length < 3 || args.length > 4) {
 			System.out.println("Invalid number arguments");
 			return;
 		}
@@ -143,6 +186,57 @@ public class Classes {
 		} else {
 			unrelatedCourses(major, numMajors, unrelatedness);
 		}
+		*/
 	}
+	
+	private static void run(String[] args) {
+		if (args.length < 3 || args.length > 4) {
+			System.out.println("Invalid number arguments");
+			//return;
+		}
+		
+		String major =  args[0];
+		if ((new MajorsParser()).parseMajors().get(major) == null) {
+			System.out.println("That major doesn't exist");
+			//return;
+		}
+		int numMajors;
+		double unrelatedness;
+		try {
+			numMajors = Integer.parseInt(args[1]);
+			unrelatedness = Double.parseDouble(args[2]);
+			if (numMajors > 60 || numMajors < 1) {
+				System.out.println("Invalid number of majors");
+				//return;
+			}
+			if (unrelatedness < 0 || unrelatedness > 1) {
+				System.out.println("Unrelatedness of majors should be between 0 and 1");
+				//return;
+			}
+		} catch (NumberFormatException e) {
+			System.out.println("The 2nd argument must be an integer and the 3rd argument must be a double");
+			return;
+		}
+		String option = "";
+		if (args.length == 4) {
+			option = args[3];
+		}
+		if (option.equals("Breadths")) {
+			breadthCourses(major, numMajors, unrelatedness);
+		} else {
+			unrelatedCourses(major, numMajors, unrelatedness);
+		}
+		System.out.println("------------------------------------");
+		BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+		try {
+			if(keyboard.readLine().length() >= 0) {
+				main(new String[0]);
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 	
 }
