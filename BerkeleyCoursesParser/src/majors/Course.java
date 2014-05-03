@@ -1,0 +1,21 @@
+package majors;
+
+public class Course {
+	
+	private String title;
+	private String section;
+	
+	public Course(String title, String section) {
+		this.title = title;
+		this.section = section;
+	}
+	
+	public String getTitle() {
+		return title;
+	}
+	
+	public String getSection() {
+		return section;
+	}
+
+}
