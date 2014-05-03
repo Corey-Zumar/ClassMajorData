@@ -1,10 +1,13 @@
 import graph.*;
 import list.*;
+import majors.*;
+import java.util.*;
 
 
 public class Majors {
-  private Graph majors;
-
+  public Graph majors;
+  public UWGraph relatedMajors;
+  
   private static boolean existsSubstring(String s, String sub) {
     if (s.indexOf(sub) < 0) {
       return false;
@@ -14,8 +17,32 @@ public class Majors {
 
   public Majors() {
     majors = new Graph();
+    relatedMajors = new UWGraph();
   }
 
+  public static void readInfo(String[] majors, String[] descriptions,
+		       Map<String, String> info) {
+    int index = 0;
+    for (String i : info.keySet()) {
+      majors[index] = i;
+      String description = info.get(i).replaceAll("[^a-zA-Z0-9\\s]", 
+    		  "");
+      description = description.replaceAll("\\s[^a-zA-Z0-9]", 
+    		  "");
+      descriptions[index] = description;
+      index++;
+    }
+  }
+
+  public void addRelated(Map<String, String[]> info) {
+	  for (String i : info.keySet()) {
+		  relatedMajors.insertVertex(i);
+		  for (int j = 0; j < info.get(i).length; j++) {
+			  relatedMajors.insertEdge(i,info.get(i)[j]);
+		  }
+	  }
+  }
+  
   public static int numCommonWords(String s1, String s2) {
     int currIndex = 0;
     int endWord = 0;
@@ -30,7 +57,10 @@ public class Majors {
 	  break;
 	}
       }
-      if (existsSubstring(s2, s1.substring(currIndex, endWord+1))) {
+      String testSubstring = s1.substring(currIndex, endWord+1);
+      if (existsSubstring(s2, testSubstring) &&
+    		  !testSubstring.equals("The") &&
+    		  !testSubstring.equals("the")) {
 	similarity++;
       }
       currIndex = endWord + 2;
@@ -50,19 +80,37 @@ public class Majors {
     }
   }
 
+  public void insertMajors(String[] majors, String[] related) {
+	  
+  }
+  
   public static void main(String[] args) {
-    System.out.println(existsSubstring("asdf", "as"));
+    /*System.out.println(existsSubstring("asdf", "as"));
     String test1 = "hey what is your name";
     String test2 = "hey what are you doing";
     System.out.println(numCommonWords(test1, test2));
     Majors majorsSimilarity = new Majors();
-    String[] majors = {"a", "b", "c"};
-    String[] descriptions = {"hey what", "what adsf as", "hey as"};
+    MajorsParser foo = new MajorsParser();
+    Map<String, String> map = foo.parseMajors();
+    int numMajors = map.size();
+    String[] majors = new String[numMajors];
+    String[] descriptions = new String[numMajors];
+    readInfo(majors, descriptions, map);
+    System.out.println(descriptions[30]);
     majorsSimilarity.insertSimilarities(majors, descriptions);
     System.out.println(majorsSimilarity.majors);
-    Object[] asdf = majorsSimilarity.majors.leastWeights("a");
+    Object[] asdf = majorsSimilarity.majors.leastWeights("Chicano Studies");
     for (int i = 0; i < asdf.length; i++) {
       System.out.println(asdf[i]);
     }
+    */
+	MajorsParser parser = new MajorsParser();
+	Map<String, String[]> map = parser.parseMajors();
+	Majors majorsRelated = new Majors();
+	majorsRelated.addRelated(map);
+	Object[] bar = majorsRelated.relatedMajors.farthest("Computer Science");
+	for (int i = 0; i < bar.length; i++) {
+		System.out.println(bar[i]);
+	}
   }
 }

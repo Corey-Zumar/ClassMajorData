@@ -1,0 +1,121 @@
+import graph.*;
+import list.*;
+import majors.*;
+import java.util.*;
+
+
+public class Majors {
+  private Graph majors;
+  private UWGraph relatedMajors;
+  
+  private static boolean existsSubstring(String s, String sub) {
+    if (s.indexOf(sub) < 0) {
+      return false;
+    }
+    return true;
+  }
+
+  public Majors() {
+    majors = new Graph();
+    relatedMajors = new UWGraph();
+  }
+
+  public static void readInfo(String[] majors, String[] descriptions,
+		       Map<String, String> info) {
+    int index = 0;
+    for (String i : info.keySet()) {
+      majors[index] = i;
+      String description = info.get(i).replaceAll("[^a-zA-Z0-9\\s]", 
+    		  "");
+      description = description.replaceAll("\\s[^a-zA-Z0-9]", 
+    		  "");
+      descriptions[index] = description;
+      index++;
+    }
+  }
+
+  public void addRelated(Map<String, String[]> info) {
+	  for (String i : info.keySet()) {
+		  relatedMajors.insertVertex(i);
+		  for (int j = 0; j < info.get(i).length; j++) {
+			  relatedMajors.insertEdge(i,info.get(i)[j]);
+		  }
+	  }
+  }
+  
+  public static int numCommonWords(String s1, String s2) {
+    int currIndex = 0;
+    int endWord = 0;
+    int similarity = 0;
+    while (currIndex < s1.length()) {
+      for (int i = currIndex+1; i < s1.length(); i++) {
+	if (s1.charAt(i) == ' ') {
+	  endWord = i - 1;
+	  break;
+	} else if (i == s1.length() - 1) {
+	  endWord = i;
+	  break;
+	}
+      }
+      String testSubstring = s1.substring(currIndex, endWord+1);
+      if (existsSubstring(s2, testSubstring) &&
+    		  !testSubstring.equals("The") &&
+    		  !testSubstring.equals("the")) {
+	similarity++;
+      }
+      currIndex = endWord + 2;
+    }
+    return similarity;
+  }
+
+  public void insertSimilarities(String[] majors, String[] descriptions) {
+    for (int i = 0; i < majors.length; i++) {
+      this.majors.insertVertex(majors[i]);
+    }
+    for (int i = 0; i < majors.length; i++) {
+      for (int j = 0; j < majors.length; j++) {
+	this.majors.insertEdge(majors[i], majors[j],
+		   numCommonWords(descriptions[i], descriptions[j]));
+      }
+    }
+  }
+
+  public void insertMajors(String[] majors, String[] related) {
+	  
+  }
+  
+  public static void main(String[] args) {
+    /*System.out.println(existsSubstring("asdf", "as"));
+    String test1 = "hey what is your name";
+    String test2 = "hey what are you doing";
+    System.out.println(numCommonWords(test1, test2));
+    Majors majorsSimilarity = new Majors();
+    MajorsParser foo = new MajorsParser();
+    Map<String, String> map = foo.parseMajors();
+    int numMajors = map.size();
+    String[] majors = new String[numMajors];
+    String[] descriptions = new String[numMajors];
+    readInfo(majors, descriptions, map);
+    System.out.println(descriptions[30]);
+    majorsSimilarity.insertSimilarities(majors, descriptions);
+    System.out.println(majorsSimilarity.majors);
+    Object[] asdf = majorsSimilarity.majors.leastWeights("Chicano Studies");
+    for (int i = 0; i < asdf.length; i++) {
+      System.out.println(asdf[i]);
+    }
+    */
+	MajorsParser parser = new MajorsParser();
+	Map<String, String[]> map = parser.parseMajors();
+	Majors majorsRelated = new Majors();
+	majorsRelated.addRelated(map);
+	System.out.println(majorsRelated.relatedMajors);
+	Object[] bar = majorsRelated.relatedMajors.farthest("German");
+	try {
+	System.out.println(((VertexAndDepth) majorsRelated.relatedMajors.vertexList.front().next().item()).depth);
+	} catch (InvalidNodeException e) {
+	}
+	for (int i = 0; i < bar.length; i++) {
+		System.out.println(bar[i]);
+	}
+  }
+}

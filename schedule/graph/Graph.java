@@ -32,12 +32,14 @@ public class Graph {
     try {
     int index = 0;
     for (int sim = 0; sim < 50; sim++) {
-      if (index == 5) {
+      if (index >= 5) {
 	break;
       }
       DListNode currNode = vertexList.front();
       while (currNode.isValidNode()) {
-	if (edgeHash.find(new VertexPair(m, currNode.item())).value() == sim) {
+	if (edgeHash.find(new VertexPair(m, currNode.item())) != null &&
+		(Integer) edgeHash.find(new VertexPair(m, currNode.item())).value() == sim &&
+		index < 5) {
 	  leastWeights[index] = (String) currNode.item();
 	  index++;
 	}
@@ -57,7 +59,7 @@ public class Graph {
     DListNode currNode1 = vertexList.front();
     try {
     while (currNode1.isValidNode()) {
-      DListNode currNode2 = currNode1;
+      DListNode currNode2 = vertexList.front();
       while (currNode2.isValidNode()) {
 	Entry weight = edgeHash.find(new VertexPair(currNode1.item(), currNode2.item()));
 	if (weight != null) {
