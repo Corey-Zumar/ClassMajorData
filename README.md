@@ -1,3 +1,3 @@
 ClassMajorData
 ==============
-THIS IS OUR AWESOMELY AMAZING PROJECT FOR BERKELEY CLASSES
+Enables students to balance their schedules by suggesting courses based on a specified degree of relation to their current schedules.
